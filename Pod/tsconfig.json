@@ -1,0 +1,23 @@
+{
+   "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop":true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "incremental":true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+
+    //add decorator support
+    "allowSyntheticDefaultImports": true,
+  },
+}

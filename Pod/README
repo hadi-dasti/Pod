@@ -1,0 +1,55 @@
+# NEWS Agency
+
+[Project Description]
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Scripts](#scripts)
+- [Author](#author)
+- [License](#license)
+
+## Installation
+
+1. Clone the repository.
+2. Install the dependencies by running the following command
+
+npm install
+
+## Usage
+
+- To start the project in development mode, run:
+
+npm run dev
+
+
+- To start the project in production mode, run:
+
+npm run start
+
+
+## Dependencies
+
+- [express](https://www.npmjs.com/package/express) - ^4.18.2
+- [dotenv](https://www.npmjs.com/package/dotenv) - ^16.3.1
+- [morgan](https://www.npmjs.com/package/morgan) - ^1.10.0
+- [pg](https://www.npmjs.com/package/pg) - ^8.4.0
+- [reflect-metadata](https://www.npmjs.com/package/reflect-metadata) - ^0.1.13
+- [typeorm](https://www.npmjs.com/package/typeorm) - 0.3.17
+- [uuid](https://www.npmjs.com/package/uuid) - ^9.0.1
+
+## Scripts
+
+- `start`: Transpiles the TypeScript code and starts the server using `ts-node`.
+- `dev`: Starts the server in development mode using `ts-node`.
+- `start:dev`: Starts the server in development mode using `nodemon`.
+- `build`: Transpiles the TypeScript code to JavaScript.
+
+## Author
+
+[hadi dasti]
+
+## License
+
+This project is licensed under the [License Name] License.
